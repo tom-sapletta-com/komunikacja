@@ -12,7 +12,7 @@ graph TB
         B --> D[Rozproszone informacje]
         C --> D
         D --> E[Utrudnione śledzenie postępu]
-        D --> E[Chaotyczna dokumentacja]        
+        D --> F[Chaotyczna dokumentacja]        
     end
 ```
 
