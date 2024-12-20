@@ -6,7 +6,7 @@
 
 ```mermaid
 graph TB
-    subgraph Zorientowanie na komentarze
+    subgraph Lista
         A[Główny Ticket JIRA] --> B[Lista wielu zadań]
         A --> C[Chat Mattermost]
         B --> D[Wiele punktów]
@@ -22,7 +22,7 @@ graph TB
   
 ```mermaid
 graph TB
-    subgraph Zorientowanie na podzadania
+    subgraph Podzadania
         H[Główny Ticket JIRA] --> I[Podzadania]
         I --> J[Przypisanie odpowiedzialności]
         J --> K[Śledzenie postępu w JIRA]        
