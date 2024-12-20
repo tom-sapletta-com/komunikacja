@@ -12,9 +12,8 @@ graph TB
         B --> D[Rozproszone informacje]
         C --> D
         D --> E[Utrudnione śledzenie postępu]
-        D --> F[Chaotyczna dokumentacja]
-        E --> G[Niska efektywność]
-        F --> G
+        D --> E[Chaotyczna dokumentacja]        
+        E --> G
     end
 ```
 
