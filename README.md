@@ -3,23 +3,24 @@
 ## Czego unikać
 
 ### Lista zadan w zadaniu głównym
-
++ liczne zagnieżdzenia w relacji do jednego zadania w JIRA
++ Ciągła potrzeba odszukiwania kontekstu i pisania wielu komentarzy
++ w przypadku zmiany priorytetów problem z oddzieleniem wątków i skupieniem się na tylko wyslekecjonowanych informacjach
+  
 ```mermaid
 graph TB
     subgraph Lista
         A[Główny Ticket JIRA] --> B[Lista wielu zadań]
         A --> C[Chat Mattermost]
-        B --> D[Wiele punktów]
-        C --> D
-        D --> E[Utrudnione śledzenie postępu]
-        D --> F[Chaotyczna dokumentacja]        
+        B --> D[Komentarze JIRA]        
     end
 ```
 
 ### Podzadania zamiast listy w zadaniu głównym
-+ Mattermost tylko dla szybkiej komunikacji
++ Mattermost tylko dla szybkiej komunikacji z linkowaniem zadan i podzadan
 + Kluczowe informacje dodawane do JIRA
-  
++ kontekst wynikacjący z hierarchii
+    
 ```mermaid
 graph TB
     subgraph Podzadania
