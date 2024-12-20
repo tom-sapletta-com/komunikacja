@@ -2,10 +2,11 @@
 
 ## Czego unikać
 
+### Lista zadan w zadaniu głównym
 
 ```mermaid
 graph TB
-    subgraph Nieprawidłowa Komunikacja
+    subgraph Zorientowanie na komentarze
         A[Główny Ticket JIRA] --> B[Komentarze w JIRA z subtaskami]
         A --> C[Chat Mattermost]
         B --> D[Rozproszone informacje]
@@ -17,9 +18,11 @@ graph TB
     end
 ```
 
+### Podzadania zamiast listy w zadaniu głównym
+
 ```mermaid
 graph TB
-    subgraph Prawidłowa Komunikacja
+    subgraph Zorientowanie na podzadania
         H[Główny Ticket JIRA] --> I[Utworzenie Subtasków]
         I --> J[Przypisanie odpowiedzialności]
         J --> K[Śledzenie postępu w JIRA]
