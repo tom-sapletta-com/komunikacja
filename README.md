@@ -12,7 +12,7 @@ graph TB
     subgraph Lista
         A[Główny Ticket JIRA] --> B[Lista wielu zadań]
         A --> C[Chat Mattermost]
-        B --> D[Komentarze JIRA]        
+        A --> D[Komentarze JIRA]        
     end
 ```
 
