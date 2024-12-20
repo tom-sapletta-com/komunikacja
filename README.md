@@ -7,9 +7,9 @@
 ```mermaid
 graph TB
     subgraph Zorientowanie na komentarze
-        A[Główny Ticket JIRA] --> B[Komentarze w JIRA z subtaskami]
+        A[Główny Ticket JIRA] --> B[Lista wielu zadań]
         A --> C[Chat Mattermost]
-        B --> D[Rozproszone informacje]
+        B --> D[Wiele punktów]
         C --> D
         D --> E[Utrudnione śledzenie postępu]
         D --> F[Chaotyczna dokumentacja]        
@@ -17,18 +17,15 @@ graph TB
 ```
 
 ### Podzadania zamiast listy w zadaniu głównym
-
++ Mattermost tylko dla szybkiej komunikacji
++ Kluczowe informacje dodawane do JIRA
+  
 ```mermaid
 graph TB
     subgraph Zorientowanie na podzadania
-        H[Główny Ticket JIRA] --> I[Utworzenie Subtasków]
+        H[Główny Ticket JIRA] --> I[Podzadania]
         I --> J[Przypisanie odpowiedzialności]
-        J --> K[Śledzenie postępu w JIRA]
-        K --> L[Uporządkowana dokumentacja]
-        L --> M[Wysoka efektywność]
-        
-        N[Mattermost tylko dla\nszybkiej komunikacji] --> O[Kluczowe informacje\ndodawane do JIRA]
-        O --> L
+        J --> K[Śledzenie postępu w JIRA]        
     end
 
 ```
