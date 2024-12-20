@@ -31,7 +31,7 @@ graph TB
 
 ```
     
-Jak można się komunikować w oparciu o zarządzanie zadaniami, statusami i zespołem przy użyciou jira i mattermost
+Jak można się komunikować w oparciu o zarządzanie zadaniami, statusami i zespołem przy użyciu jira i mattermost
 
 ```mermaid
 graph TD
