@@ -13,7 +13,6 @@ graph TB
         C --> D
         D --> E[Utrudnione śledzenie postępu]
         D --> E[Chaotyczna dokumentacja]        
-        E --> G
     end
 ```
 
