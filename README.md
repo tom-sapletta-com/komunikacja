@@ -1,4 +1,37 @@
 # komunikacja
+
+## Czego unikać
+
+
+```mermaid
+graph TB
+    subgraph Nieprawidłowa Komunikacja
+        A[Główny Ticket JIRA] --> B[Komentarze w JIRA z subtaskami]
+        A --> C[Chat Mattermost]
+        B --> D[Rozproszone informacje]
+        C --> D
+        D --> E[Utrudnione śledzenie postępu]
+        D --> F[Chaotyczna dokumentacja]
+        E --> G[Niska efektywność]
+        F --> G
+    end
+```
+
+```mermaid
+graph TB
+    subgraph Prawidłowa Komunikacja
+        H[Główny Ticket JIRA] --> I[Utworzenie Subtasków]
+        I --> J[Przypisanie odpowiedzialności]
+        J --> K[Śledzenie postępu w JIRA]
+        K --> L[Uporządkowana dokumentacja]
+        L --> M[Wysoka efektywność]
+        
+        N[Mattermost tylko dla\nszybkiej komunikacji] --> O[Kluczowe informacje\ndodawane do JIRA]
+        O --> L
+    end
+
+```
+    
 Jak można się komunikować w oparciu o zarządzanie zadaniami, statusami i zespołem przy użyciou jira i mattermost
 
 ```mermaid
